@@ -1,5 +1,6 @@
 # Cache-Dimensioning-in-Cloud-CDNs-INFOCOM-2022
-This is the code for our work "Cache Dimensioning in Cloud CDNs" accepted by INFOCOM 2022.
+This is the code for our work "Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach" accepted by INFOCOM 2022.
+## 
 ## Figure description
 ### Figures in main paper
 Figure 1 shows the performance of single prediction, multi-shop deterministic algorithm( Algorithm 2).\
@@ -19,6 +20,6 @@ Figure 10,11 show the performance of multi-prediction, multi-shop randomized alg
 Figure 12 shows the performance of Algorithm 4 with real-world dataset.
 # Reference
 Any academic work, which is built on this code, should use reference of the following paper.
-> Cache Dimensioning in Cloud CDNs\
+> Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach\
 > Guojun Xiong, Shufan Wang, Gang Yan, Jian Li\
 > INFOCOM 2022
