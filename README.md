@@ -8,13 +8,10 @@ The steps for synthetic and real trace are shown as following:\
 4, Excute policies.
 ## Figure description
 ### Figures using synthetic trace
-Figure 1 shows the performance of single prediction, multi-shop deterministic algorithm( Algorithm 2).\
-Figure 2 shows the performance of single prediction, multi-ship randomized algorithm( Algorithm 3).\
-Figure 3 shows the possible outperformance of Algorithm 2 over Algorithm 3.\
-Figure 4 shows the impact of \lambda.\
-Figure 5 shows the impact of biased errors for both Algorithm 2 and 3.\
-Figure 6 gives a real-world dateset to simulate the performance of Algorithm 2, compared with pure online algorithm without predictions.\
-Figure 7 shows the performance of multi-prediction, multi-shop deterministic algorithm( Algorithm 4).
+Preparation: we generate the request probablity matrix for N = 100 contents in K = 30 frames. The Zipf distritbuion parameter is set to 0.6 for all frames. The request matrix will be saved as Requestmatrixsamealpha.npy.\
+Figure 2: shows the bar plot of requests using the probability matrix. As shown in Figure2.py.\
+Fluid analysis: solve optimal cache capacity in each frame using fluid analysis. The optimal capacity for 30 frames will be saved as btcos30.npy. As shown in fluidmodel.py.\
+
 ### Figures using real trace
 Figure 1 shows a different setting of \gamma which gives a different performance in Algorithm 2 and 3.\
 Figure 2,3,4,5 show a wider range of \lambda and \gamma for biased error for Algorithm 2 and 3.\
