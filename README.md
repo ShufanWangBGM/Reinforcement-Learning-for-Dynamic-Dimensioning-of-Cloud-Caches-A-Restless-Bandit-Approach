@@ -9,9 +9,9 @@ The steps for synthetic and real trace are shown as following:\
 ## Figure description
 ### Figures using synthetic trace
 Preparation: we generate the request probablity matrix for N = 100 contents in K = 30 frames. The Zipf distritbuion parameter is set to 0.6 for all frames. The request matrix will be saved as Requestmatrixsamealpha.npy.\
-Figure 2: shows the bar plot of requests using the probability matrix. As shown in Figure2.py.\
+Number of requests plot: shows the bar plot of requests using the probability matrix. As shown in Figure2.py.\
 Fluid analysis: solve optimal cache capacity in each frame using fluid analysis. The optimal capacity for 30 frames will be saved as btcos30.npy. As shown in fluidmodel.py.\
-
+Optimal Bt plot: shows the bar plot of optimal Bt from fluid analysis. As shown in Figure3.py.\ 
 ### Figures using real trace
 Figure 1 shows a different setting of \gamma which gives a different performance in Algorithm 2 and 3.\
 Figure 2,3,4,5 show a wider range of \lambda and \gamma for biased error for Algorithm 2 and 3.\
