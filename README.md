@@ -1,4 +1,4 @@
-# Cache-Dimensioning-in-Cloud-CDNs-INFOCOM-2022
+# Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach
 This is the code for our work "Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach" accepted by INFOCOM 2022.
 ## 
 ## Figure description
