@@ -1,11 +1,12 @@
 # Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach
-This is the code for our work "Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach" accepted by INFOCOM 2022.
+This is the code for our work "Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach" accepted by INFOCOM 2022. 
 ## General description
 The steps for synthetic and real trace are shown as following:\
 1, (Synthetic trace only) Generate the probablity distribution (Zipf distribution) of the request contents.\
 2, Use fluid analysis to achieve the optimal cache capacity in each frame. We use [Gurobi](https://www.gurobi.com) as the LP solver. Note full knowledge of transition probabilities is required.\
 3, Calculate the whittle index table for all contents.\
-4, Excute policies.
+4, Excute policies.\
+If you have any questions, feel free to ask me (swang214@binghamton.edu).
 ## Figure description
 ### Figures using synthetic trace
 1, Preparation: we generate the request probablity matrix for N = 100 contents in K = 30 frames. The Zipf distritbuion parameter is set to 0.6 for all frames. A more detailed description can be found in our paper. The request matrix will be saved as Requestmatrixsamealpha.npy.\
