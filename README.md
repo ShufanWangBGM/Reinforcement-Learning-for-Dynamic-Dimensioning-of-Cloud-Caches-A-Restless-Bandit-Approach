@@ -15,8 +15,9 @@ The steps for synthetic and real trace are shown as following:\
 5, Calculate whittle index for f-Whittle: given the transition probability matrix, we can directly calculate the whittle index via the closed form (17) in the paper. As in calculatewhittle.py.\
 6, Draw cost figures using different policies. Here we use random, LRU, f-Whittle and fW-UCB algorithms. A more detailed explanation can be found in our paper. As in Figure4.py.
 ### Figures using real trace
-1, A more detailed explanation on the real trace dateset we chose can be found in our paper.
-2, Optimal Bt plot: solve optimal cache capacity in each frame using fluid analysis. The optimal capacity for 28 frames will be calculated. As shown in fluidmodel.py.\
+1, A more detailed explanation on the real trace dateset we chose can be found in our paper.\
+2, Optimal Bt plot: solve optimal cache capacity in each frame using fluid analysis. The optimal capacity for 28 frames will be calculated. As shown in optimal.py.\
+3, Calculate whittle index for the trace. As shown in whittle.py.
 # Reference
 Any academic work, which is built on this code, should use reference of the following paper.
 > Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach\
