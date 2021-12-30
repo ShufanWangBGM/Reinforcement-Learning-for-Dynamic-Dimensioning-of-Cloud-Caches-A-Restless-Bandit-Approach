@@ -21,28 +21,7 @@ If you have any questions, feel free to ask me (swang214@binghamton.edu).
 3, Calculate whittle index for the trace. As shown in whittle.py.
 # Reference
 Any academic work, which is built on this code, should use reference of the following paper.
-url: "https://github.com/github/linguist"
-preferred-citation:
-  type: article
-  authors:
-  - family-names: "Lisa"
-    given-names: "Mona"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-  - family-names: "Bot"
-    given-names: "Hew"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-  doi: "10.0000/00000"
-  journal: "Journal Title"
-  month: 9
-  start: 1 # First page number
-  end: 10 # Last page number
-  title: "My awesome research software"
-  issue: 1
-  volume: 1
-  year: 2021
-@inproceedings{xiong2022reinforcement,
-  title={Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach},
-  author={Xiong, Guojun and Wang, Shufan and Yan, Gang and Li, Jian},
-  booktitle={Proc. of IEEE INFOCOM},
-  year={2022}
-}
+> Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach\
+> Guojun Xiong, Shufan Wang, Gang Yan, Jian Li\
+> IEEE INFOCOM
+
