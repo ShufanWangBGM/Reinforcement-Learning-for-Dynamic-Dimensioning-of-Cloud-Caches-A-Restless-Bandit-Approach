@@ -1,5 +1,5 @@
 # Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach
-This is the code for our work "Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach" accepted by INFOCOM 2022. 
+This is the code for our work "Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach" accepted by IEEE INFOCOM 2022. 
 ## General description
 The steps for synthetic and real trace are shown as following:\
 1, (Synthetic trace only) Generate the probablity distribution (Zipf distribution) of the request contents.\
@@ -21,6 +21,9 @@ If you have any questions, feel free to ask me (swang214@binghamton.edu).
 3, Calculate whittle index for the trace. As shown in whittle.py.
 # Reference
 Any academic work, which is built on this code, should use reference of the following paper.
-> Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach\
-> Guojun Xiong, Shufan Wang, Gang Yan, Jian Li\
-> INFOCOM 2022
+@inproceedings{xiong2022reinforcement,
+  title={Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach},
+  author={Xiong, Guojun and Wang, Shufan and Yan, Gang and Li, Jian},
+  booktitle={Proc. of IEEE INFOCOM},
+  year={2022}
+}
