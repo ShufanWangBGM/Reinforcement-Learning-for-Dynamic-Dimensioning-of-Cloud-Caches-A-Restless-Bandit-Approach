@@ -1,5 +1,6 @@
 # Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach
-This is the code for our work "Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach" accepted by IEEE INFOCOM 2022. 
+This repository contains the code used in evaluating the IEEE INFOCOM 2022 paper titled "Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach". 
+
 ## General description
 The steps for synthetic and real trace are shown as following:\
 1, (Synthetic trace only) Generate the probablity distribution (Zipf distribution) of the request contents.\
