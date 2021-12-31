@@ -27,5 +27,6 @@ If you have any questions, feel free to reach out to us (swang214@binghamton.edu
 Any academic work, which is built on this code, should use reference of the following paper.
 > Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach
 > Guojun Xiong, Shufan Wang, Gang Yan, Jian Li
+
 > IEEE INFOCOM 2022
 
