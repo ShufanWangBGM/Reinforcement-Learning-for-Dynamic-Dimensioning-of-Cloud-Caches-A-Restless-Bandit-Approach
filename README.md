@@ -2,11 +2,11 @@
 This repository contains the code used in evaluating the IEEE INFOCOM 2022 paper titled "Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach". 
 
 ## General Description
-The synthetic trace and real trace based simulations for index-based policies (when the system parameters are known) are run as follows:\
-1. Generate the synthetic traces in which the requests in each time frame follow the Zipf distribution.\
-2. Obtain the optimal cache dimensioning in each time frame using a fluid analysis model. In particular, we use [Gurobi](https://www.gurobi.com) as the LP solver.\
-3. Compute Whittle indices for each content.\
-4. Excute the fluid Whittle index policy.\
+The synthetic trace and real trace based simulations for index-based policies (when the system parameters are known) are run as follows:
+1. Generate the synthetic traces in which the requests in each time frame follow the Zipf distribution.
+2. Obtain the optimal cache dimensioning in each time frame using a fluid analysis model. In particular, we use [Gurobi](https://www.gurobi.com) as the LP solver.
+3. Compute Whittle indices for each content.
+4. Excute the fluid Whittle index policy.
 
 ## Figure Description
 ### Figures using synthetic trace
