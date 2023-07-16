@@ -1,5 +1,5 @@
 # Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach
-This repository contains the code used in evaluating the IEEE INFOCOM 2022 paper titled "Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach". 
+This repository contains the code used in evaluating the IEEE INFOCOM 2022 paper and IEEE/ACM Transactions on Networking (TON) 2023 titled "Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach". 
 
 ## General Description
 The synthetic trace and real trace based simulations for index-based policies (when the system parameters are known) are run as follows:
