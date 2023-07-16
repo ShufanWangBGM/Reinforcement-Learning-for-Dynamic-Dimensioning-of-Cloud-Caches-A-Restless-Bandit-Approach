@@ -28,4 +28,7 @@ Any academic work, which is built on this code, should use reference of the foll
 >Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach\
 >Guojun Xiong, Shufan Wang, Gang Yan, Jian Li\
 >IEEE INFOCOM 2022
-
+>
+>Reinforcement Learning for Dynamic Dimensioning of Cloud Caches: A Restless Bandit Approach\
+>Guojun Xiong, Shufan Wang, Gang Yan, Jian Li\
+>IEEE/ACM Transactions on Networking (TON), to appear, 2023
