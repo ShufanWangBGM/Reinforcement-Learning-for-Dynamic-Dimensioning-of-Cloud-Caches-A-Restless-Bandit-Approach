@@ -20,6 +20,9 @@ The synthetic trace and real trace based simulations for index-based policies (w
 1. We use two publicly avaiable CDN traces to evaluate our policies.
 2. Optimal cache dimensioning plot: This solves optimal cache dimensioning in each frame using fluid analysis (see optimal.py).
 3. Calculate Whittle indice for each content in the trace (see whittle.py).
+### Figures using prototype evaluation
+1. The prototype evaluation can be implemented via Amazon AWS (see instruction on https://aws.amazon.com/getting-started/hands-on/building-fast-session-caching-with-amazon-elasticache-for-redis/). 
+2. We understand AWS is not open source and free to use, so we provide an easier method that can config the algorithms via ATS (Apache Traffic Server). 
 
 If you have any questions, feel free to reach out to us (swang214@binghamton.edu).
 
