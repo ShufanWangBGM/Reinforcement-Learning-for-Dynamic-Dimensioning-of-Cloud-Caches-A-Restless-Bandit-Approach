@@ -1,6 +1,6 @@
 # Usages about Prototype and ATS
 
-To implement installation, please follow below steps:
+Before using, please download ATS [here](https://doi.org/10.5281/zenodo.6543551). To implement installation, please follow below steps:
 
 # 1. Installation
 ## install dependencies
